@@ -1,0 +1,96 @@
+body {
+    background-color: #c6c6c6;
+    
+  }
+  
+  header {
+    border-bottom: 1px solid black;
+  }
+  header nav a {
+    margin-right: 20px; /* Adjust the spacing as desired */
+  }
+  
+  
+  main section {
+    border: 1px solid black;
+    padding: 10px;
+    overflow: hidden; /* Prevents images from overflowing the section */
+  }
+  
+  #menu {
+    float: right;
+  }
+
+  #menu a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+ 
+
+  main section img {
+    max-width: 100%; /* Ensures the images fit within the section */
+    height: 230px;
+    float: left;
+    margin-right: 10px; /* Adds some space between the image and text */
+  }
+  
+  main section:nth-child(2) img {
+    max-height: 300px;
+    max-width: 300px;
+    float: right;
+    margin-left: 10px; /* Adds some space between the image and text */
+  }
+  
+  main section p {
+    font-size: 18px; /* Adjust the font size as desired */
+  }
+  
+  footer {
+    border-top: 1px solid black;
+  }
+  footer nav a {
+    margin-right: 582px; /* Adjust the spacing as desired */
+  }
+ 
+  
+  .contact-section {
+    margin: 20px;
+  }
+  
+  .form-field {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  .required {
+    color: red;
+  }
+  
+  input[type="submit"] {
+    background-color: #c6c6c6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #c6c6c6;
+  }
+  h1{
+    text-align: center;
+  }
+
+  h2{
+    margin-top: 15%;
+    text-align: center;
+}
+  #Galeria img {
+    
+    margin: 17px;
+}

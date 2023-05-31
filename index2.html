@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Mi página</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #header {
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+
+    #logo {
+      float: left;
+    }
+
+    #menu {
+      float: right;
+    }
+
+    #menu a {
+      margin-left: 10px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    #content {
+      clear: both;
+      padding: 20px;
+    }
+
+    .section {
+      display: flex;
+      align-items: center;
+    }
+
+    .section img {
+      width: 50%;
+      max-width: 400px;
+    }
+
+    .section p {
+      width: 50%;
+      max-width: 400px;
+      padding: 0 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="header">
+    <div id="logo">
+      <img src="ruta_del_icono.png" alt="Logo">
+    </div>
+    <div id="menu">
+      <a href="#">Inicio</a>
+      <a href="#">Multimedia</a>
+      <a href="#">Contacto</a>
+    </div>
+  </div>
+
+  <div id="content">
+    <div class="section">
+      <img src="ruta_de_la_imagen1.jpg" alt="Imagen 1">
+      <p>
+        Texto de la sección 1 a la derecha
+      </p>
+    </div>
+    <div class="section">
+      <p>
+        Texto de la sección 2 a la izquierda
+      </p>
+      <img src="ruta_de_la_imagen2.jpg" alt="Imagen 2">
+    </div>
+  </div>
+</body>
+
+</html>
